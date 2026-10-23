@@ -2,7 +2,7 @@
 
 Deload is a playful, frontend-only marketing site for website building and social media management. It is a React single-page website built with Vite, plain CSS, Framer Motion, and Lucide icons.
 
-Live site: [https://gmf4crdm.insforge.site](https://gmf4crdm.insforge.site)
+Live site: [https://deload.insforge.site](https://deload.insforge.site)
 
 ## Run locally
 
