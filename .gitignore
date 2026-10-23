@@ -1,0 +1,7 @@
+# Dependencies and generated Vite output can be recreated from the project files.
+node_modules/
+dist/
+.vite/
+*.local
+context.txt
+LEARNING.md
