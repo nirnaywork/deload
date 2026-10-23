@@ -2,6 +2,8 @@
 
 Deload is a playful, frontend-only marketing site for website building and social media management. It is a React single-page website built with Vite, plain CSS, Framer Motion, and Lucide icons.
 
+Live site: [https://gmf4crdm.insforge.site](https://gmf4crdm.insforge.site)
+
 ## Run locally
 
 Install dependencies and start the Vite development server:
@@ -56,6 +58,15 @@ Design item shape:
 Put local portfolio assets in `public/samples/` and use paths beginning with `/samples/`. A video uses the browser's built-in controls. A design image uses its `alt` text, with the title as a backup.
 
 ## Deploy
+
+### InsForge
+
+The site is a static React/Vite page and does not call InsForge APIs, so no frontend API keys are needed. The root `vercel.json` keeps the single-page app entry available for direct visits. After linking the project with the InsForge CLI and building locally, deploy the project root (the CLI excludes `dist/` and builds from source):
+
+```sh
+npx -y @insforge/cli deployments env list
+npx -y @insforge/cli deployments deploy . --json
+```
 
 ### Vercel
 
